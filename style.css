@@ -1,0 +1,31 @@
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0 0 0 / 96%);
+    font-weight: 600;
+}
+
+.notice marquee a{
+    text-align: center;
+    font-size: 15px;
+
+}
+.notice marquee{
+    height: 200px;
+    text-align: center;
+}
+@media (max-width: 768px){
+    .notice{
+        display: flex;
+        flex-direction: column;
+        align-item: center;
+        justift-content: center;
+        margin: auto;
+       
+    }
+    .map iframe{
+        display: flex;
+        flex-direction: column;
+        align-item: center;
+        justift-content: center;
+        margin: auto;
+    }
+}

@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Medifine</title>
+</head>
+<body>
+    <!--Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./images/logo.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Find a Doctor</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Medifine Health</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Patients & Visitors</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Treatments
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li class="dropdown-item"><strong>Adult</strong></li>
+                  <li><a class="dropdown-item" href="#">Cancer Care</a></li>
+                  <li><a class="dropdown-item" href="#">Cardiology</a></li>
+                  <li><a class="dropdown-item" href="#">Gastroenterology</a></li>
+                  <li><a class="dropdown-item" href="#">Neurosurgery</a></li>
+                  <li><a class="dropdown-item" href="#">OB-GYN</a></li>
+                  <li><a class="dropdown-item" href="#">Ophthalmology</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">For Children</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2 border border-success" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!--Slider-->
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/1st.jpg" class="img-fluid d-block w-100  "  alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/2nd.jpg" class="d-block img-fluid w-100 "  alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/3rd.jpg" class="d-block img-fluid w-100 " alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/4th.jpg" class="d-block img-fluid w-100 "  alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+      <!--All Content-->
+      <div class="container-fluid">
+          <!--1st buttons-->
+          <div  class="row justify-content-evenly align-item-center bg-light" >
+             <div class="col-md-3 pt-2 pb-2 text-center text-white">
+              <button type="button" class="btn btn-success" style="font-weight: 500;">Schedule Appointments Online</button>
+             </div>
+             <!--2nd buttons-->
+             <div class="col-md-3 pt-2 pb-2 text-center">
+              <button type="button" class="btn btn-info " style="font-weight: 500;">Giving to Medifine Health</button>
+             </div>
+          </div>
+           <!--Heading and Quicklink-->
+          <div class="row justify-content-evenly mt-3  ">
+             <div class="col-md-7 pt-3  ps-4">
+                 <h1>Complete Health Care Solutions for Everyone</h1>
+                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam dolorum pariatur a qui ea magnam architecto nulla neque doloremque! Tempore odit earum iure exercitationem quaerat iusto odio consectetur numquam, expedita dolores sit commodi laboriosam mollitia cupiditate nemo perferendis maiores dolorem rerum ut neque! Odit aut facere necessitatibus debitis. Velit, et?</p>
+              <div class="row">
+                  <div class="col-md-7">
+                    <h2>List of facilities available in our Hospital</h2>
+                    <ul>
+                       <li>Physical Medicine and rehabilitation <i class="bi bi-capsule" style="font-size: large; color:blue;"></i></li>
+                       <li>Mental health services <i class="bi bi-person-arms-up" style="font-size: large; color:red;"></i></li>
+                       <li>Pediatrics <i class="bi bi-lungs-fill" style="font-size: large; color:red;"></i></li>
+                       <li>Inpatient Wards <i class="bi bi-hospital-fill" style="font-size: large; color:green;"></i></li>
+                       <li>Surgery <i class="bi bi-heart-pulse-fill" style="font-size: large; color:red;"></i> </li>
+                    </ul>
+                  </div>
+              </div>
+             </div>
+              <!--Quick Links-->
+             <div class="col-md-3  pt-3 text-center ">
+                <div class="row justify-content-center">
+                    <div class="col-mid-6">
+                      <div class="notice text-center" style="height: 300px; width: 350px; border: 1px solid black;">
+                        <h2 class="bg-success text-white p-3">Quick Links</h2>
+                        <marquee direction="up" onmouseover="stop()" onmouseout="start()">
+                           <h6><a href="#">Schedule Appointments Online</a></h6>
+                           <h6><a href="#">Make an Appointment</a></h6>
+                           <h6><a href="#">Urgent Care</a></h6>
+                           <h6><a href="#">Virtual Primary and Urgent Care</a></h6>
+                           <h6><a href="#">Virtual Video Visits</a></h6>
+                           <h6><a href="#">Remote Second Opinions</a></h6>
+                           <h6><a href="#">Clinical Trials</a></h6>
+                        </marquee>
+                     </div>
+                    </div>
+                </div>
+                
+             </div>
+          </div>
+           <!--Table and Map-->
+           <div class="row justify-content-evenly">
+            <!--Table-->
+               <div class="col-md-7 pt-3 text-center mt-2">
+                <table class="table table-hover ">
+                   <tr >
+                    <th class="text-center" colspan="3">Some Free Medicines Provided By Our Hospital</th>
+                  </tr>
+                  <tr>
+                    <th>S.No</th>
+                    <th>Anti Cold Tablets</th>
+                    <th>Anti Acid Tablets</th>
+                  </tr>
+                   <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>5-ZINE-D Tablet</td>
+                      <td>Pantoprazole</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>XYLID-PC Tablet</td>
+                      <td>Rabeprazole</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>FILFAST-180 Tablet</td>
+                      <td>Gelusil</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">4</th>
+                      <td>ALTRIZ-M Tablets</td>
+                      <td>Gaviscon</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">5</th>
+                      <td>PEACEMOL-D Tablets</td>
+                      <td>Mylanta</td>
+                    </tr>
+                   </tbody>
+                </table>
+               </div>
+               <!--Map-->
+               <div class="col-md-3 pt-3 map">
+                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.3841565617904!2d77.55861481029595!3d13.074822612554295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae22a3eeaaaaab%3A0x7a63e65ec6265252!2sCybrain%20Software%20Solutions%20Pvt%20Ltd%20-%20Web%20Designing%20%7C%20IT%20Company%20%7C%20Software%20Company%20in%20Vidyaranyapura%20Bangalore!5e0!3m2!1sen!2sin!4v1710353454568!5m2!1sen!2sin" width="350" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+               </div>
+           </div>
+           <!--FAQ-->
+           <div class="row justify-content-evenly pt-5 pb-5">
+             <div class="col-md-10">
+              <h2 class="text-center pb-2 pt-2 mb-2 bg-info text-dark">FAQ</h2>
+              <!--Accordian-->
+              <div class="accordion accordion-flush border" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Can you give me medical advice by e-mail?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Unfortunately, we can’t provide medical advice via e-mail. However, if you are a Medifine Health patient, you can send messages to your doctor -- and receive replies -- through Medifine MyChart, our secure online website.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      What emergency rooms are available and how do I get to them?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">If an emergency is life-threatening, call 108. Do not attempt to drive yourself or your loved one to the hospital.
+
+                      For non-life-threatening emergencies, Medifine Health operates emergency rooms at each of our three hospitals. </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      How do I contact a specific doctor?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">To reach a doctor by phone, call his or her office number. You can look it up using our Find A Doctor tool. You can also send a secure online message to a Duke Health doctor you’ve already seen by logging into <a href="#">MedifineMychart.org</a>.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                      What are my rights as a patient?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">We view health care as a partnership between you and your health care team. We respect your rights, values, and dignity. You will receive safe, high-quality medical care regardless of your race, color, national origin, religion, gender, age, sexual orientation, gender identity or expression, genetic information, veteran status, or disability. In exchange, we ask that you recognize the responsibilities that come with being a patient, both for your own well-being, and that of your fellow patients and health care providers.<br>
+                    Below, we've listed your rights and responsibilities as a Medifine Health patient. A Medifine Health patient is anyone who is seen in the Medifine University Health System, by Medifine University affiliated physicians/Medifine Primary Care, or by the Private Diagnostic Clinic.</div>
+                  </div>
+                </div>
+              </div>
+             </div>
+           </div>
+           <!--Footer-->
+           <div class="row justify-content-evenly text-white bg-dark pt-3 pb-5">
+              <div class="col-md-2">
+                  <h2>Contact Us</h2>
+                  <p>
+                    <a href="#" class="text-white" style="text-decoration: none;"> <i class="bi bi-facebook pe-1" style="font-size:x-large;"></i></a>
+                    <a href="#" class="text-white" style="text-decoration: none;"><i class="bi bi-whatsapp pe-1" style="font-size:x-large;"></i></a>
+                    <a href="#" class="text-white" style="text-decoration: none;"><i class="bi bi-twitter-x pe-1" style="font-size:x-large;"></i>
+                    </a>
+                    <a href="#" class="text-white" style="text-decoration: none;"><i class="bi bi-envelope-at-fill" style="font-size:x-large;"></i></a> 
+                  </p>
+                   <p>
+                    <i class="bi bi-telephone-inbound-fill" style="font-size:x-large;"></i> <span style="font-size: large;">0897-54362</span>
+                   </p>
+              </div>
+              <div class="col-md-2 text-white">
+                  <p><a href="#" class="text-white" style="text-decoration: none; font-size: large; font-weight: 400;">Medifine Health Anti-Racism Pledge</a></p>
+                  <p><a href="#" class="text-white" style="text-decoration: none; font-size: large; font-weight: 400;">Notice of Nondiscrimination</a></p>
+                  <p><a href="#" class="text-white" style="text-decoration: none; font-size: large; font-weight: 400;">Notice of Privacy Practices</a></p>
+                  <p><a href="#" class="text-white" style="text-decoration: none; font-size: large; font-weight: 400;">Price Transparency</a></p>
+                  <p><a href="#" class="text-white" style="text-decoration: none; font-size: large; font-weight: 400;">Terms and Conditions</a></p>
+                  <p><a href="#" class="text-white" style="text-decoration: none; font-size: large; font-weight: 400;">Website Privacy Policy</a></p>
+              </div>
+              <div class="col-md-2">
+                 <p><a href="#" class="text-white" style="text-decoration: none; font-size: large; font-weight: 400;">Medifine Children's</a></p>
+                 <p><a href="#" class="text-white" style="text-decoration: none; font-size: large; font-weight: 400;">Medifine School of Medicine</a></p>
+                 <p><a href="#" class="text-white" style="text-decoration: none; font-size: large; font-weight: 400;">Medifine School of Nursing</a></p>
+                 <p><a href="#" class="text-white" style="text-decoration: none; font-size: large; font-weight: 400;">Medifine University</a></p>
+              </div>
+              <div class="col-md-2">
+                  <p><a href="#" class="text-white" style="text-decoration: none; font-size: large; font-weight: 400;">About MedifineHealth</a></p>
+                  <p><a href="#" class="text-white" style="text-decoration: none; font-size: large; font-weight: 400;">Careers</a></p>
+                  <p><a href="#" class="text-white" style="text-decoration: none; font-size: large; font-weight: 400;">Email Sign Up</a></p>
+                  <p><a href="#" class="text-white" style="text-decoration: none; font-size: large; font-weight: 400;">Giving</a></p>
+                  <p><a href="#" class="text-white" style="text-decoration: none; font-size: large; font-weight: 400;">Newsroom</a></p>
+                  <p><a href="#" class="text-white" style="text-decoration: none; font-size: large; font-weight: 400;">Referring Physicians</a></p>
+              </div>
+             
+              <div class="row pt-3 text-center ">
+                <div class="col-md-7">
+                  <p>Copyright © 2004-2024 Medifine University Health System</p>
+                </div>
+              </div>
+           </div>
+      </div>
+
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
